@@ -1,0 +1,82 @@
+body{
+    background: #090c16;
+}
+section.white-ground{
+    background: white;
+}
+.app-body {
+    background: url('../../images/background.png');
+    background-size: cover;
+    overflow: hidden;
+}
+.header {
+    background: linear-gradient(#1e1c30, #10212f, #09111e);
+    border-bottom: 3px solid #0d1a2e;
+    padding-right:20px;
+}
+.navbar-nav>li>a, .navbar-brand {
+    font-weight:bolder;
+    font-family: monospace;
+    color:#b7caf9!important;
+    font-size: 16px;
+    /*border-right: 1px solid #283e5f;*/
+}
+.navbar-nav>li>a:hover {
+    color: white!important;
+    text-shadow:
+            -1px -1px 0 #2d62e8,
+            1px -1px 0 #2d62e8,
+            -1px 1px 0 #2d62e8,
+            1px 1px 0 #2d62e8;
+}
+.white-color{
+    color:white;
+}
+.span-block {
+    display: block;
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.size-24{
+    font-size: 24px;
+}
+.size-48{
+    font-size: 48px;
+}
+.size-64{
+    font-size: 64px;
+}
+.black008 {
+    background: rgba(0,0,0,0.8);
+}
+#footer a {
+    color: black;
+}
+.trans{
+    background: #9ba5a533!important;
+}
+h1.margin-bottom20 {
+    margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+    .span-block{
+        font-size: 22px;
+    }
+}
+a:hover {
+    color:gold;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
+}
+@media (max-width: 767px) {
+    .marketplace-ul{
+        height: calc(100% - 50px)!important;
+        overflow: auto;
+    }
+    #marketplace_dropdownmenu {
+        height: calc(100% - 100px)!important;
+    }
+}
